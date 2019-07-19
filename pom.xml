@@ -23,7 +23,8 @@
         <module>eureka-server-peer-ha</module>
         <module>eureka-server-provider-a</module>
         <module>eureka-server-provider-b</module>
-        <module>eureka-server-consumer-a</module>
+        <module>eureka-server-consumer-ribbon</module>
+        <module>eureka-server-consumer-feign</module>
         <module>gateway-zuul-api</module>
     </modules>
 

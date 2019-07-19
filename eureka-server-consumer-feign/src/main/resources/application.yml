@@ -1,14 +1,14 @@
+server:
+  port: 7777
+
 spring:
   application:
-    name: service-zuul
+    name: hello-service-consumer-feign
 
 eureka:
   client:
+    register-with-eureka: false
+    fetch-registry: true
     service-url:
       defaultZone: http://peer-a:1111/eureka/,http://peer-b:1112/eureka/,http://peer-c:1113/eureka/
 
-zuul:
-  routes:
-    hello-service:
-      path: /hello-service/**
-      serviceId: helllo-service
