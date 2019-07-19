@@ -24,7 +24,7 @@
         <module>eureka-server-provider-a</module>
         <module>eureka-server-provider-b</module>
         <module>eureka-server-consumer-a</module>
-        <module>gateway-api</module>
+        <module>gateway-zuul-api</module>
     </modules>
 
     <properties>
