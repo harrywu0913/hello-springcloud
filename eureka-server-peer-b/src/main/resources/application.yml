@@ -1,0 +1,16 @@
+server:
+  port: 1112
+
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  instance:
+    hostname: peer-b
+#    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://peer-a:1111/eureka/
