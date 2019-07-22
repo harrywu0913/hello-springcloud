@@ -11,7 +11,7 @@
     <groupId>com.harry</groupId>
     <artifactId>config-server-ha</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>config-server-ha</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

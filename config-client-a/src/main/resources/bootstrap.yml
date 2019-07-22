@@ -1,5 +1,7 @@
+
 spring:
   cloud:
     config:
-      uri: http://10.225.48.28:1234
-      profile: prod
+      profile: dev
+      uri: http://localhost:1234/
+      label: master
