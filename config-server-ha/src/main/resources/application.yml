@@ -4,18 +4,3 @@ server:
 spring:
   application:
     name: config-server
-
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/harrywu0913/hello-springcloud
-          searchPaths: config-repo
-          basedir: /Users/harry/Documents/project/self/hello-springcloud/
-          username: 1248120122@qq.com
-          password: qqatlh88301903
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://admin:123456@peer-a:1112/eureka/,http://admin:123456@peer-b:1112/eureka/,http://admin:123456@peer-c:1113/eureka/
